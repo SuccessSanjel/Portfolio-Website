@@ -1,0 +1,59 @@
+body{
+    background-image: url("images/home.jpg");
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.col{
+    flex-basis: 50%;
+}
+h1,h2{
+    color: #fff;
+    font-size: 100px;
+}
+button{
+    width: 180px;
+    color:red;
+    font-size: 12px;
+    padding: 12px 0;
+    background:darkblue;
+    border:0;
+    border-radius: 20px;
+    outline: none;
+    margin-top:30px;
+}
+.card{
+    width:200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    font-size: 30px;
+    font-weight: 800;
+    color: red;
+    transition: transform 0.5s;
+}
+.img1{
+    background-image: url(images/cvbackground.jpg);
+}
+.img2{
+    background-image: url(images/phone.jpg);
+}
+.img3{
+    background-image: url(images/blog123.jpg);
+}
+.img4{
+    background-image: url(images/research\ background.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+}

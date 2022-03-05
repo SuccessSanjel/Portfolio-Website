@@ -1,0 +1,36 @@
+ul{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    height: 36px;
+    line-height: 36px;
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+li{
+    float: left;
+    border-right: 1px solid #156ee2;
+}
+a{
+    display: block;
+    padding: 0px 28px;
+    color: #fff;
+    text-decoration: none;
+
+}
+a:hover, .active a{
+    background-color: #156ee2;
+}
+
+
+
+.background5{
+    background-image: url("images/contact.jpg");
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
